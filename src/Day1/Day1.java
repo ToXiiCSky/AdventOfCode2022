@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.LinkedList;
 
 public class Day1 {
+    //https://adventofcode.com/2022/day/1
     public static void main(String[] args) {
         LinkedList<Integer> inputList = new LinkedList<>();
 
@@ -31,7 +32,7 @@ public class Day1 {
         System.out.println("Top 3 elves: " + getTop3Elves(getAllElves(inputList)));
     }
 
-    public static LinkedList<Integer> getAllElves(LinkedList<Integer> inputList){
+    public static LinkedList<Integer> getAllElves(LinkedList<Integer> inputList) {
         int currentElf = 0;
         int biggestNumber = 0;
         LinkedList<Integer> elves = new LinkedList<>();
@@ -52,11 +53,11 @@ public class Day1 {
         return elves;
     }
 
-    public static LinkedList<Integer> getTop3Elves(LinkedList<Integer> inputList){
+    public static LinkedList<Integer> getTop3Elves(LinkedList<Integer> inputList) {
         LinkedList<Integer> returnList = new LinkedList<>();
         int biggestNumber = 0;
 
-        while(returnList.size() < 3) {
+        while (returnList.size() < 3) {
             for (Integer integer : inputList) {
                 if (integer > biggestNumber) {
                     biggestNumber = integer;
