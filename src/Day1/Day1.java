@@ -9,7 +9,6 @@ public class Day1 {
     //https://adventofcode.com/2022/day/1
     public static void main(String[] args) {
         LinkedList<Integer> inputList = new LinkedList<>();
-
         BufferedReader reader;
         try {
             reader = new BufferedReader(new FileReader(
