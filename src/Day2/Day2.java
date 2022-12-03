@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.LinkedList;
 
 public class Day2 {
+    //https://adventofcode.com/2022/day/2
     public static void main(String[] args) {
         LinkedList<String> inputList = new LinkedList<>();
         BufferedReader reader;
