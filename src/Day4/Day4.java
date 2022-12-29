@@ -9,6 +9,7 @@ import java.util.List;
 
 public class Day4 {
     public static void main(String[] args) {
+        //https://adventofcode.com/2022/day/4
         LinkedList<String> inputList = new LinkedList<>();
         BufferedReader reader;
         try {

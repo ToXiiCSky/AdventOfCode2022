@@ -23,7 +23,6 @@ public class Day3 {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println(inputList);
 
         int priority = 0;
 
